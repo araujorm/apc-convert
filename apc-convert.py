@@ -3,7 +3,7 @@ import json
 import sys
 import argparse
 import os.path
-from Crypto.PublicKey import RSA
+from Cryptodome.PublicKey import RSA
 
 CERT_START = "-----BEGIN CERTIFICATE-----"
 CERT_END   = "-----END CERTIFICATE-----"
